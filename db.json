@@ -1,14 +1,60 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
+  },
+  "dosen": {
+    "code": 200,
+    "status": "success",
+    "message": "showing dosen data",
+    "data": [
+      {
+        "nip" : "string",
+        "idh" : "string",
+        "idj" : "string|null",
+        "nama" : "string",
+        "nidn_nup" : "string",
+        "golongan_jabatan" : "string",
+        "email" : "string",
+        "homebase" : {
+          "idh": "string",
+          "nama": "string",
+          "tgl_update": "datetime",
+          "l": "integer",
+          "p": "integer",
+          "jlh": "integer"
+        },
+        "jabatan" : {
+          "idj" : "string",
+          "nama" : "string",
+          "sks" : "integer"
+        }
+      }
+    ]
   }
 }
